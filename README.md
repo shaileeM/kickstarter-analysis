@@ -11,39 +11,39 @@ The purpose of this analysis is to:
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Dated
-1. Part 1 of the analysis is mainly talking about trend based on the launch date for the Theatre category.
-   To do so we need a pivot table which would mainly focus on the outcome of the entries present inside Theatre and the date
-   on which it was launched. As year is one of the entity of the date, we extracted *year* from the launch date conversion using the 
-   inbuilt excel function **=YEAR()**
-2. We created a pivot table mainly consisting of the outcomes and year extracted in the step 1. 
-3. As the purpose is to analize trend based on category and launch date we need 2 filters. 
-   - Years 
-   - Parent Category
-4. The columns for the pivot table is the list of outcomes : successful, failed, canceled, grand total. 
-5. The rows for the pivot table are the 12 months of the year. 
-6. We are mainly interested to see the trend for the *theatre* category so we apply the filter on the parent category which 
-   will only show theatre. 
-7. Now we have a pivot table consisting of count of successful, failed and canceled campaigns in all the 12 months for all the years
+1. To analyze the outcomes based on the launch date we need a pivot table which mainly focuses on the number of successful, failed and 
+   canceled projects launched throughtout the year. 
+2. As we are mainly interested to see the trend for the *theatre* category we need to filter our data inside the pivot table 
+   based on the *theatre* category. 
+3. Now we have a pivot table consisting of count of successful, failed and canceled campaigns in all the 12 months for all the years
    from *2009* to *2017*.
-8. By filtering more into the year, we can see that in the year of *2015*, the number of successful theatre campaigns were the highest(314).
-9. Visualization always helps more to find the trend from the gathered data. 
-10.We use line chart(below) to represent relation between number of different kind of outcomes and its launch date. 
+4. By filtering more into the year, we can see that in the year of *2015*, the number of successful theatre campaigns were the highest(314).
+5. We use line chart(below) to represent relation between number of different kind of outcomes for the projects based on the launch date. 
 ![](./Resources/Theater_Outcomes_vs_Launch.png)
+   - Over the period of 9 years, highest number(8%)of projects which were successful launched during the month of May. Lowest number(3%) of
+  successful projects were launched during the month of December. 
+   - Number of projects which failed were almost constant for all the months ranging from 3-4%. 
+   - Only 0.2% of the projects launched got canceled throughtout the year. 
+   - Projects which were successful are almost double the amount of projects which were failed. 
 
 
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
-- For the second analysis part, the challenge i faces was during the creation of the countIf function.
-- 
+- As the unit for launch date was in unix timestamp, there was an extra step included to convert the time into date format. 
+  Moreover to split out the years from the date, we had to perform one more step to extract year using the inbuild excel function
+  **=YEAR()**
+
+
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-  1. The highest number of successful campaigns for the Theatre category were launched in the month of May. It drastically dropped
+  1. The highest number of projects which got successful for the Theatre category were launched in the month of May. It drastically dropped
      from 111 to 35 during the second half of the year. 
-  2. Failed campaigns launched were almost constant in the range of 30-40 during the entire span of the year whereas canceled campaings were
-     almost negligible from Jan to dec. 
+  2. Number of projects which failed were almost constant in the range of 30-40 during the entire span of the year whereas projects which 
+     got canceled were very few ~4-7 from Jan to dec. 
+  3. 
 
 - What can you conclude about the Outcomes based on Goals?
 
