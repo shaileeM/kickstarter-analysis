@@ -1,12 +1,12 @@
 # Kickstarting with Excel
 
 ## Overview of Project
+
+### Purpose
 The purpose of this analysis is to:
 1. Find out the trend for the main *Theatre* category based on its launch date.
 2. Understand the behaviour of the subcategory *Plays* based on its funding goal.
 
-
-### Purpose
 
 ## Analysis and Challenges
 
