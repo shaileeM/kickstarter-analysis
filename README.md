@@ -34,13 +34,21 @@ The purpose of this analysis is to:
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
+- For the second analysis part, the challenge i faces was during the creation of the countIf function.
+- 
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+  1. The highest number of successful campaigns for the Theatre category were launched in the month of May. It drastically dropped
+     from 111 to 35 during the second half of the year. 
+  2. Failed campaigns launched were almost constant in the range of 30-40 during the entire span of the year whereas canceled campaings were
+     almost negligible from Jan to dec. 
 
 - What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
+  1. This data set lacks the subcategory which would help us to see which entry from the main Theatre category was launched 
+  2. 
 
 - What are some other possible tables and/or graphs that we could create?
