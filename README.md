@@ -6,6 +6,7 @@
 The purpose of this analysis is to:
 1. Find out the trend for the main *Theatre* category based on its launch date.
 2. Understand the behaviour of the subcategory *Plays* based on its funding goal.
+3. Help understand Louise the trend for Theatre category for her future campaigns.
 
 
 ## Analysis and Challenges
