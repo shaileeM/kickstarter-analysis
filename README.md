@@ -32,8 +32,12 @@ The purpose of this analysis is to:
    and the corresponding number of projects which were successful, failed and canceled. 
 2. As the goal amount ranges from 1000 to 50k, it is good to create slab/intervals of amount. 
 3. Looking at the data, 
-   - 
-   - 
+   - There are more than 95% of the projects whose goal amount was less than $25,000 and they consist both more number of 
+   successful and failed projects.
+   - The graph seen for the projects whose goal amount was more than $25,000 has sudden low and high peaks due to
+     less number of data points. 
+   - Number of projects which got canceled were 0 for all the goal amounts.
+   ![](./Resources/Outcomes_vs_Goals.PNG)
   
 
 ### Challenges and Difficulties Encountered
@@ -65,4 +69,7 @@ The purpose of this analysis is to:
      more accurately. 
 
 - What are some other possible tables and/or graphs that we could create?
-  1. 
+  1. As we have more data points towards the less goal amount we could create another graph having goal amount
+     ranging from $1000 to $25k in X axis. 
+  2. In Y axis we can have mean of pledge amount for each goal amount. 
+  3. By doing so we can see for each goal amount how much mean amount was pledged.
